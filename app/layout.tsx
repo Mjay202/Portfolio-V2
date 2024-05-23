@@ -58,7 +58,7 @@ export default function RootLayout({
               <span className="sr-only">LinkedIn</span>
             </a>
           </div>
-          <hr className="w-px h-60 my-8 bg-emerald-200 border-0 hover:bg-emerald-400" />
+          <hr className="w-px h-10 my-8 bg-emerald-200 border-0 hover:bg-emerald-400" />
         </div>
 
         {/* Aside Email Right */}
