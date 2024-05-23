@@ -22,11 +22,11 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Signika:wght@300..700&display=swap" rel="stylesheet"></link>
       </head> */}
-      <body className={`relative ${inter.className}`}>
+      <body className={` ${inter.className}`}>
         {children}
 
         {/* Aside Socials Icons */}
-        <div className="fixed bottom-30 left-12 flex flex-col gap-0 items-center">
+        <div className="fixed bottom-40 left-12 flex flex-col gap-0 items-center">
           {" "}
           <div className="flex flex-col gap-7 align-items-center  justify-center mt-4 sm:justify-center sm:mt-0">
             <a
@@ -58,15 +58,15 @@ export default function RootLayout({
               <span className="sr-only">LinkedIn</span>
             </a>
           </div>
-          <hr className="w-px h-10 my-8 bg-emerald-200 border-0 hover:bg-emerald-400" />
+          <hr className="w-px h-48 my-8 bg-emerald-200 border-0 hover:bg-emerald-400" />
         </div>
 
         {/* Aside Email Right */}
-        <div className="fixed bottom-30 right-12 flex flex-col gap-0 items-center">
+        <div className="fixed bottom-0 right-12 flex flex-col gap-0 items-center">
           <span className="text-slate-400 text-sm vert-text font-mono tracking-wider hover:text-emerald-400 duration-300 hover:scale-105 cursor-pointer transition ease-out ">
             mujeeb.o.hammed@gmail.com
           </span>
-          <hr className="self-center w-px h-60 my-8 bg-emerald-200 border-0 hover:bg-emerald-400" />
+          <hr className="self-center w-px h-20 my-8 bg-emerald-200 border-0 hover:bg-emerald-400" />
         </div>
       </body>
     </html>

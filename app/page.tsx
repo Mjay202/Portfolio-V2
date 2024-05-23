@@ -135,6 +135,13 @@ export default function Home() {
         <h3 className="text-lg text-teal-300 mt-4 font-mono">Welcome, my name is</h3>
         <h3 className="text-7xl text-slate-300 mt-7 font-bold">Mujeeb Hammed.</h3>
         <h3 className="text-7xl text-slate-500 mt-7 font-bold">Senior Backend Developer.</h3>
+        <h3 className="text-7xl text-slate-500 mt-7 font-bold">Senior Backend Developer.</h3>
+        <h3 className="text-7xl text-slate-500 mt-7 font-bold">Senior Backend Developer.</h3>
+        <h3 className="text-7xl text-slate-500 mt-7 font-bold">Senior Backend Developer.</h3>
+        <h3 className="text-7xl text-slate-500 mt-7 font-bold">Senior Backend Developer.</h3>
+        <h3 className="text-7xl text-slate-500 mt-7 font-bold">Senior Backend Developer.</h3>
+        <h3 className="text-7xl text-slate-500 mt-7 font-bold">Senior Backend Developer.</h3>
+        <h3 className="text-7xl text-slate-500 mt-7 font-bold">Senior Backend Developer.</h3>
       </div>
 
       {/* <div className="relative z-[-1] flex justify-between mt-20 px-20 place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-emerald-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-emerald-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#01ffd0] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
