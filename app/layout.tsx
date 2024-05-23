@@ -26,7 +26,7 @@ export default function RootLayout({
         {children}
 
         {/* Aside Socials Icons */}
-        <div className="fixed bottom-40 left-12 flex flex-col gap-0 items-center">
+        <div className="fixed bottom-0 left-12 xs:hidden md:flex flex-col gap-0 items-center ">
           {" "}
           <div className="flex flex-col gap-7 align-items-center  justify-center mt-4 sm:justify-center sm:mt-0">
             <a
@@ -58,7 +58,7 @@ export default function RootLayout({
               <span className="sr-only">LinkedIn</span>
             </a>
           </div>
-          <hr className="w-px h-48 my-8 bg-emerald-200 border-0 hover:bg-emerald-400" />
+          <hr className="w-px h-20 mt-8 bg-emerald-200 border-0 hover:bg-emerald-400" />
         </div>
 
         {/* Aside Email Right */}
@@ -66,7 +66,7 @@ export default function RootLayout({
           <span className="text-slate-400 text-sm vert-text font-mono tracking-wider hover:text-emerald-400 duration-300 hover:scale-105 cursor-pointer transition ease-out ">
             mujeeb.o.hammed@gmail.com
           </span>
-          <hr className="self-center w-px h-20 my-8 bg-emerald-200 border-0 hover:bg-emerald-400" />
+          <hr className="self-center w-px h-20 mt-2 bg-emerald-200 border-0 hover:bg-emerald-400" />
         </div>
       </body>
     </html>
