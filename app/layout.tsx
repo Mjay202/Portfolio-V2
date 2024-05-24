@@ -68,7 +68,7 @@ export default function RootLayout({
                 <li>
                   <a
                     href="#"
-                    className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                    className="block py-2 px-3   rounded md:bg-transparent  md:p-0 "
                     aria-current="page"
                   >
                     <span className="text-sm font-mono mr-1 text-emerald-400">

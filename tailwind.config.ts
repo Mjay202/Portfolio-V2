@@ -5,6 +5,7 @@ const config: Config = {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    
   ],
   theme: {
     extend: {
@@ -14,8 +15,8 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        'inter' : ['Inter', 'sans-serif'],
-        'roboto' : ['Roboto Mono', 'sans-serif'],
+        inter: ["Inter", "sans-serif"],
+        roboto: ["Roboto Mono", "sans-serif"],
       },
     },
   },
