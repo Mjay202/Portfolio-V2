@@ -103,13 +103,16 @@ export default function Home() {
             </p>
             <p className="text-slate-400 mt-9 mb-3 lg:mt-12 pr-16 lg:pr-60 text-md lg:text-lg font-inter lg:text-relaxed font-relaxed tracking-wide">
               Fast forward to today, I am currently working with an
-              <span className="text-emerald-400">{""}</span>educational
-              institution where I have created and actively maintaining a
-              Library Management System
-              <span className="text-emerald-400">{""}</span>. This role has
-              allowed me to apply my expertise in backend development and
-              continue my commitment to delivering high-quality software
-              solutions.
+              <span className="text-emerald-400">
+                {"educational institution"}
+              </span>{" "}
+              where I have created and actively maintaining a
+              <span className="text-emerald-400">
+                {" Library Management System"}
+              </span>
+              . This role has allowed me to apply my expertise in backend
+              development and continue my commitment to delivering high-quality
+              software solutions.
             </p>
             <p className="text-slate-400 mt-9 mb-3 lg:mt-12 pr-16 lg:pr-60 text-md lg:text-lg font-inter lg:text-relaxed font-relaxed tracking-wide">
               Throughout my career, I have designed and managed complex
