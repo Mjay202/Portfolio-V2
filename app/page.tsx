@@ -11,24 +11,22 @@ export default function Home() {
 
       {/* Hero Section */}
       <div className="px-10 md:px-36 sm:px-28 mt-24 font-inter">
-        <h4 className="sm:text-sm lg:text-md text-xs text-teal-300 font-mono">
-          {" "}
-          Hello{" "}
-          <span className="inline-flex">
+        
+        <h3 className="sm:text-lg lg:text-xl text-md text-teal-300 sm:mt-4  mt-2 font-mono">
+          Hello
+          <span className="inline-flex mr-1 ml-1">
             <PiHandWavingLight className="ml-1 hover:animate-ping" />
           </span>
-        </h4>
-        <h3 className="sm:text-xl lg:text-2xl text-md text-teal-300 sm:mt-4  mt-2 font-mono">
-          Welcome, my name is
+          , my name is
         </h3>
         <div className="relative z-[-1] mb-6 before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-emerald-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-emerald-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#01ffd0] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]"></div>
-        <h4 className="sm:text-5xl lg:text-7xl md:text-6xl  text-4xl font-inter text-slate-200 mt-5 md:mt-7 lg:mt-12 font-bold">
+        <h4 className="sm:text-5xl lg:text-7xl md:text-6xl  text-4xl font-inter text-slate-200 mt-5 md:mt-7 lg:mt-9 font-bold">
           Mujeeb Hammed.
         </h4>
-        <h5 className="lg:text-7xl md:text-5xl text-4xl font-inter  text-slate-500 mt-2 sm:mt-5 font-bold sm:text-4xl">
+        <h5 className="lg:text-7xl md:text-5xl text-4xl font-inter  text-slate-500 mt-2 sm:mt-4 font-bold sm:text-4xl">
           I build backend stuffs.
         </h5>
-        <p className="text-slate-400 mt-9 lg:mt-12 pr-16 lg:pr-60 text-sm lg:text-base font-inter font-relaxed">
+        <p className="text-slate-400 mt-5 lg:mt-8 pr-16 lg:pr-72 text-sm lg:text-base font-inter font-relaxed">
           Senior Software Developer with extensive experience in building
           fullstack solutions. Specializing in backend development, I excel in
           creating robust, scalable applications using
@@ -36,7 +34,7 @@ export default function Home() {
           <span className="text-emerald-400"> JavaScript Node.js</span>, my
           preferred stacks.
         </p>
-        <p className="text-slate-400 mt-9 mb-3 lg:mt-12 pr-16 lg:pr-60 text-sm lg:text-base font-inter font-relaxed">
+        {/* <p className="text-slate-400 mt-9 mb-3 lg:mt-12 pr-16 lg:pr-60 text-sm lg:text-base font-inter font-relaxed">
           With a strong foundation in both frontend and backend technologies, I
           have successfully led and contributed to numerous projects across
           various industries. My expertise includes designing complex databases,
@@ -44,11 +42,11 @@ export default function Home() {
           authentication systems. Passionate about clean code and best
           practices, I am dedicated to delivering high-quality software that
           meets user needs and business goals.
-        </p>
+        </p> */}
 
         <button
           type="button"
-          className="mt-10 hover:border-r-4 font-mono  hover:border-b-4 py-4 px-9 me-2 mb-2 text-md font-medium  focus:outline-none bg-transparent rounded-lg border border-emerald-400 transition ease-out duration-300 hover:scale-105 text-emerald-400 focus:z-10 focus:ring-2 focus:ring-emerald-100"
+          className="mt-6 md:mt-8 hover:border-r-4 font-mono  hover:border-b-4 py-4 px-7 me-2 mb-2 text-md font-medium  focus:outline-none bg-transparent rounded-lg border border-emerald-400 transition ease-out duration-300 hover:scale-105 text-emerald-400 focus:z-10 focus:ring-2 focus:ring-emerald-100"
         >
           Hire me Now!
         </button>
