@@ -18,11 +18,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/* <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Signika:wght@300..700&display=swap" rel="stylesheet"></link>
-      </head> */}
+      <head>
+        <link
+          href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"
+          rel="stylesheet"
+        />
+      </head>
       <body className={`relative ${inter.className}`}>
         <nav className="fixed top-0 left-0 right-0 bg-black">
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 px-10">
@@ -52,9 +53,9 @@ export default function RootLayout({
               >
                 <path
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   d="M1 1h15M1 7h15M1 13h15"
                 />
               </svg>
@@ -177,6 +178,8 @@ export default function RootLayout({
           </span>
           <hr className="self-center w-px h-20 mt-2 bg-emerald-200 border-0 hover:bg-emerald-400" />
         </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
       </body>
     </html>
   );
