@@ -25,7 +25,7 @@ export default function RootLayout({
         />
       </head>
       <body className={`relative ${inter.className}`}>
-        <nav className="fixed top-0 left-0 right-0 bg-black">
+        <nav className="fixed top-0 left-0 right-0 bg-black z-10">
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 px-10">
             {/* <Image
             className="hover:animate-bounce"
@@ -64,11 +64,11 @@ export default function RootLayout({
               className="hidden w-full md:block md:w-auto"
               id="navbar-default"
             >
-              <ul className="font-medium flex items-center flex-col p-4 md:p-0 mt-4 border  rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 ">
+              <ul className="font-medium flex items-center flex-col p-4 md:p-0 mt-4 z-10 rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 ">
                 <li>
                   <a
                     href="#"
-                    className="block py-2 px-3   rounded md:bg-transparent  md:p-0 "
+                    className="block py-2 px-3 rounded md:bg-transparent md:p-0"
                     aria-current="page"
                   >
                     <span className="text-sm font-mono mr-1 text-emerald-400">
@@ -82,7 +82,7 @@ export default function RootLayout({
                 <li>
                   <a
                     href="#"
-                    className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                    className="block py-2 px-3 rounded md:bg-transparent md:p-0"
                     aria-current="page"
                   >
                     <span className="text-sm font-mono mr-1 text-emerald-400">
@@ -96,7 +96,7 @@ export default function RootLayout({
                 <li>
                   <a
                     href="#"
-                    className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                    className="block py-2 px-3 rounded md:bg-transparent md:p-0"
                     aria-current="page"
                   >
                     <span className="text-sm font-mono mr-1 text-emerald-400">
@@ -110,7 +110,7 @@ export default function RootLayout({
                 <li>
                   <a
                     href="#"
-                    className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                    className="block py-2 px-3 rounded md:bg-transparent md:p-0"
                     aria-current="page"
                   >
                     <span className="text-sm font-mono mr-1 text-emerald-400">
@@ -124,7 +124,7 @@ export default function RootLayout({
                 <li className="place-content-center">
                   <button
                     type="button"
-                    className="hover:border-r-4 font-mono  hover:border-b-4 py-2 px-5 me-2 mb-2 text-md font-medium  focus:outline-none bg-transparent rounded-lg border border-emerald-400 transition ease-out duration-300 hover:scale-105 text-emerald-400 focus:z-10 focus:ring-2 focus:ring-emerald-100"
+                    className="hover:border-r-4 font-mono mt-4 md:mt-0  hover:border-b-4 py-2 px-5 me-2 mb-2 text-md font-medium focus:outline-none bg-transparent rounded-lg border border-emerald-400 transition ease-out duration-300 hover:scale-105 text-emerald-400 focus:z-10 focus:ring-2 focus:ring-emerald-100"
                   >
                     Resume
                   </button>
@@ -136,7 +136,7 @@ export default function RootLayout({
         {children}
 
         {/* Aside Socials Icons */}
-        <div className="fixed bottom-0 md:left-12 sm:left-8 hidden sm:flex flex-col gap-0 items-center ">
+        <div className="fixed bottom-0 md:left-12 sm:left-8 hidden sm:flex flex-col gap-0 items-center">
           {" "}
           <div className="flex flex-col gap-7 align-items-center  justify-center mt-4 sm:justify-center sm:mt-0">
             <a
